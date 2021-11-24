@@ -1,0 +1,225 @@
+{
+  "intents": [
+    {
+      "tag": "greet",
+      "patterns": [
+        " Hello",
+        " hi",
+        " morning",
+        " noon",
+        " hello",
+        " afternoon",
+        " night"
+      ],
+      "responses": [
+        " Hey! I'm HOMIE, I gotch you!!!",
+        " Hi! I'm HOMIE. Anything I can help?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": " bye",
+      "patterns": [
+        " Bye",
+        " Chest",
+        " Goodbye"
+      ],
+      "responses": [
+        " Thank you. Have a nice day!",
+        " Thank you for chatting with HOMIE!"
+      ]
+    },
+    {
+      "tag": " thanks",
+      "patterns": [
+        " Thanks",
+        " thank you",
+        " Thanks"
+      ],
+      "responses": [
+        " HOMIE happy to help :)",
+        " Ah, HOMIE is so embarrassed. Yes, you are welcome"
+      ]
+    },
+    {
+      "tag": " ask_general",
+      "patterns": [
+        " What is mental illness?",
+        " What is mental illness?",
+        " What is the definition of mental illness?"
+      ],
+      "responses": [
+        " Mental illness is a health condition that interferes with a person's thoughts, emotions, relationships, and daily functioning. They are associated with distress and reduced capacity to engage in daily activities. It is important to know that mental illness is a medical condition that has nothing to do with a person's character, intelligence, or will. Just as diabetes is a disorder of the pancreas, mental illness is a medical condition due to the biology of the brain.",
+        " Mental illness is a health condition that interferes with a person's thoughts, emotions, relationships, and daily functioning. Mental illness falls in a range of severity: some are quite mild and only interfere with certain aspects of life, such as certain phobias. Similar to how a person would treat diabetes with medication and insulin, mental illness can be treated with a combination of medication and social support."
+      ]
+    },
+    {
+      "tag": " ask_cause",
+      "patterns": [
+        " What causes mental illness?",
+        " Why do people get mental illness?"
+      ],
+      "responses": [
+        " Mental illness usually strikes individuals in the prime of life, with 75 percent of mental health conditions developing by age 24. This makes identification and treatment of mental disorders very difficult, because normal personality and behavioral changes in adolescents can mask symptoms of mental health disorders. Parents and caregivers should be aware of this fact, and pay attention to changes in their child's mood, personality, personal habits, and social withdrawal. When these occur in children under 18, they are referred to as serious emotional disturbances (SEDs)."
+      ]
+    },
+    {
+      "tag": " ask_doctor",
+      "patterns": [
+        " How do you find a mental health doctor?",
+        " How do you find a mental illness therapist?",
+        " How do I find a psychologist?"
+      ],
+      "responses": [
+        " The easiest way to seek mental health services is to visit the nearest Puskesmas. For those who do not have a BPJS card, an administration fee of between Rp. 5,000 to Rp. 30,000 is only charged (depending on the location)."
+      ]
+    },
+    {
+      "tag": " ask_medicine",
+      "patterns": [
+        " Is there a cure for mental illness?",
+        " Where to buy medicine for mental health?"
+      ],
+      "responses": [
+        " It is better to consult a mental health service first to get medication."
+      ]
+    },
+    {
+      "tag": " ask_HOMIE",
+      "patterns": [
+        " Who are you?",
+        " Who are you?"
+      ],
+      "responses": [
+        " I'm HOMIE, a friend who will help you :)"
+      ]
+    },
+    {
+      "tag": " missed",
+      "patterns": [
+        " Your answer sucks",
+        " Oh no, the answer is no"
+      ],
+      "responses": [
+        " Sorry, HOMIE is still learning, I hope your next question will be answered."
+      ]
+    },
+    {
+      "tag": " ask_help_other_depression",
+      "patterns": [
+        " Someone I love or a friend has been diagnosed with depression. How can I help?"
+      ],
+      "responses": [
+        " You don't have to understand exactly what the other person is going through, you just have to realize that it's a difficult experience. You might try something like, 'I can see that this experience or these symptoms are really painful for you,' or, 'I'm sorry to hear that you are feeling unwell.' If you have experienced depression yourself, you can say, 'I know how you feel.' Remember that everyone experiences an illness like depression differently, and empathy is about recognizing the impact of the illness, not comparing the symptoms. You don't have to be an expert, but learning more about depression can help you understand what's going on (and perhaps dispel some unhelpful myths surrounding depression)."
+      ]
+    },
+    {
+      "tag": " ask_suicide",
+      "patterns": [
+        " I'm having suicidal thoughts",
+        " I want to kill myself",
+        " I have a friend who wants to commit suicide",
+        " I have suicidal thoughts, or someone I care about is talking about suicide. What should I do?"
+      ],
+      "responses": [
+        " Thoughts of suicide do not mean that a person will end their life, but it is a sign that they need extra help or support. If you are having suicidal thoughts, it is important to talk to your doctor or mental health provider. If you support others, encourage them to seek help. Coping With Suicidal Thoughts is a great resource to help you understand and manage difficult feelings. Please call: +91-9820466726"
+      ]
+    },
+    {
+      "tag": " ask_free_counseling",
+      "patterns": [
+        " Where can I find free or low-cost counseling?",
+        " Where can I find cheap or free counseling?"
+      ],
+      "responses": [
+        " For recipients of BPJS services, it is advisable to seek services from the nearest Puskesmas first, even if the Puskesmas does not have mental health services, because patients receiving mental health services from BPJS need a referral from the Puskesmas before being referred to a hospital. If you do not intend to use BPJS services, you can go directly to the nearest hospital. You can also join peer counseling services such as at www.ibunda.id"
+      ]
+    },
+    {
+      "tag": " ask_self_harm",
+      "patterns": [
+        " I'm thinking about hurting myself or self harm"
+      ],
+      "responses": [
+        " When you're feeling anxious, angry, or disappointed, do things you enjoy or try to think about other distractions or substitute ways to stop hurting yourself. Try the following: Calling friends, Recording your feelings in a diary, Listening to music, drawing, or reading, Take a walk or run, dance, exercise or physical activity, Count down and slowly from 10 to 1, Breathe slowly slowly, inhale through the nose and exhale through the mouth, Focus on the objects around you and think about how they look, sound, smell, or taste"
+      ]
+    },
+    {
+      "tag": " ask_counseling_price",
+      "patterns": [
+        " How much does an online counseling service cost?"
+      ],
+      "responses": [
+        " The price of online consulting services can vary, generally starting from IDR 100,000 per session. Please inquire about the prices of each service provider."
+      ]
+    },
+    {
+      "tag": " ask_online_counseling",
+      "patterns": [
+        " Ask for a list or info on mental health counseling service providers online, please?",
+        " Ask for information or online counseling information, please?"
+      ],
+      "responses": [
+        " The following are some applications or sites that provide online mental health professional counseling services: Getbetter.id, Riliv, Kalm, Klee, Karib"
+      ]
+    },
+    {
+      "tag": " ask_suicide_sign",
+      "patterns": [
+        " What are the signs of a suicidal person?",
+        " What are the characteristics of people who want to commit suicide?"
+      ],
+      "responses": [
+        " Some of the signs are: Talking about suicidal thoughts, Hating and blaspheming yourself, Looking for a deadly way to kill yourself, Organizing things to leave, Saying goodbye, Withdrawing from others, Self-destructive behavior, Drastic physical and mood changes . If someone close to you shows one or more of the warning signs of suicide above, don't hesitate to ask and offer to help. Show that you are worried and concerned about their condition, and invite them to have a good talk."
+      ]
+    },
+    {
+      "tag": " ask_suicide_online",
+      "patterns": [
+        " What if I find a suicidal person on the internet?"
+      ],
+      "responses": [
+        " If you can reach them, feel free to contact them via replies in their status/tweets or private messages. Offer as much help as you can and provide links to first aid information. Look for people they know closely or can reach out to more closely, and invite them to approach them. Another way you can do this is with the report feature on social media, especially if they show that they hurt themselves or show a means of suicide. Most social media will process reports by providing a contact list or link they can access as first aid. Please note that no matter how much help or effort you put forth, you cannot be held responsible for the actions and behavior of others."
+      ]
+    },
+    {
+      "tag": " ask_refuse_our_help",
+      "patterns": [
+        " What if a friend refuses my help?"
+      ],
+      "responses": [
+        " Respect their decision. You can say 'That's fine, but if you ever need help, you can call me back or anyone you trust.'"
+      ]
+    },
+    {
+      "tag": " ask_suicide_survivor",
+      "patterns": [
+        " I am Grieving and sad because of the Loss of a Loved One or a Suicide Friend"
+      ],
+      "responses": [
+        " It's perfectly natural to give yourself time and temporarily \"leave\" off the pain you're feeling by doing something you enjoy, even if you don't feel like doing it at the time. Find things that can distract you so that you can give yourself a moment to get out of the pain. If you still need some alone time, you have the right to select or choose who you want to talk to and who don't. Keep a journal to record your thoughts and feelings. Stay connected with other people. Find a support group for survivors of suicide loss."
+      ]
+    },
+    {
+      "tag": " ask_back_stronger",
+      "patterns": [
+        " How can I recover from my grief?",
+        " How can I not be sad anymore?"
+      ],
+      "responses": [
+        " It's important that we don't set our expectations too high or even force ourselves to feel better in the early stages of grief. A few things to keep in mind: There is no right or wrong way to go through our grieving process. There is no definite “limit” or “timeframe” regarding the grieving process itself – just let the process that we feel flow through. Give yourself and others time and opportunity to grieve. Don't be afraid to ask for help if you feel like you're not coping well with this grieving process."
+      ]
+    },
+    {
+      "tag": " ask_feel_worthless",
+      "patterns": [
+        " I feel worthless",
+        " I feel there is no point in living in this world",
+        " I have no reason to live anymore"
+      ],
+      "responses": [
+        " Bad feelings are a part of life. Sometimes, they are the motivation to extricate ourselves from more detrimental situations and relationships. Bad feelings do feel terrible. Feelings of worthlessness may be good in the sense of motivating to know that you are much better than how you feel today. If everyone thinks you're worthless, then maybe you can try to find someone new to hang out with. You can go around in circles trying to understand why you are worthless, then go back to your original circle of friends and start over."
+      ]
+    }
+  ]
+}
